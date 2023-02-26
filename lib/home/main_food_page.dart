@@ -18,6 +18,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
       body: SafeArea(
         child: Column(
           children: [
+            // showing the header
             Container(
               child: Container(
                 margin: EdgeInsets.only(bottom: 15),
@@ -61,6 +62,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 ),
               ),
             ),
+            // showing the body
             FoodPageBody(),
           ],
         ),
